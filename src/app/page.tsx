@@ -8,7 +8,6 @@ import { Technologies } from "@/components/Technologies";
 export default function Home() {
   return (
     <div>
-      <Header/>
       <About/>
       <Project/>
       <Technologies/>

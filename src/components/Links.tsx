@@ -1,10 +1,10 @@
 export const Links = () => {
     return (
-        <nav>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
+        <nav id="Links">
+            <a href="">oi</a>
+            <a href="">oi</a>
+            <a href="">oi</a>
+            <a href="">oi</a>
         </nav>
     )
 }

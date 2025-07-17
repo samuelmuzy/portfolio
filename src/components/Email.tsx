@@ -1,5 +1,7 @@
 export const Email = () =>{
     return(
-        <p>Mande um email</p>
+        <div className="h-screen w-full mt-96" id="Emails">
+            <p>Mande um email</p>
+        </div>
     );
 }

@@ -1,6 +1,8 @@
 export const Technologies = () =>{
     return(
-        <p>Tecnologias</p>
+        <section id="Technologies">
+            <p>Tecnologias</p>
+        </section>
         
     )
 }
