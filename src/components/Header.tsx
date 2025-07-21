@@ -2,9 +2,9 @@
 import { useEffect, useState } from "react"
 
 export const Header = () =>{
-    const [scrolled, setScrolled] = useState(false)
+    const [scrolled, setScrolled] = useState<boolean>(false)
 
-    useEffect(() => {
+    /*useEffect(() => {
       const handleScroll = () => {
         setScrolled(window.scrollY > 50)
       }
@@ -12,7 +12,7 @@ export const Header = () =>{
       window.addEventListener('scroll', handleScroll)
       return () => window.removeEventListener('scroll', handleScroll)
     }, [])
-
+*/
     return(
         <header className="w-full flex justify-evenly border-b-1 p-3 items-center">
             <img src="s" alt="LogoHeader" />
