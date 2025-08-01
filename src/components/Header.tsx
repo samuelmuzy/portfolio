@@ -1,5 +1,7 @@
 "use client"
 import { useEffect, useState } from "react"
+import logoHeader from "../assets/image-removebg-preview (8).png"
+import Image from 'next/image';
 
 export const Header = () =>{
     const [scrolled, setScrolled] = useState<boolean>(false)
@@ -15,7 +17,7 @@ export const Header = () =>{
 */
     return(
         <header className="w-full flex justify-evenly border-b-1 p-3 items-center">
-            <img src="s" alt="LogoHeader" />
+            <Image width={200} height={50} src={logoHeader} alt="LogoHeader"/>
             <nav className="flex gap-5">
                 <a href="#About">About</a>
                 <a href="#Projects">Projects</a>
