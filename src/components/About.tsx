@@ -18,7 +18,7 @@ export const About = () => {
     }
 
     return (
-        <section className="h-screen flex flex-col items-center justify-center gap-6" id="About">
+        <section className="h-full flex flex-col items-center justify-center gap-6" id="About">
 
             <p className="text-4xl font-bold">Sobre mim</p>
             <div className="flex gap-4 justify-center items-center w-full">
@@ -29,9 +29,9 @@ export const About = () => {
                     <p className="text-2xl">
                         Atualmente, estou focado em aprimorar minhas habilidades em desenvolvimento web e mobile, com foco em tecnologias como React, React Native, Node.js, e TypeScript.
                     </p>
-                    <button onClick={handleDownload} className="bg-white text-black p-2 rounded-md flex items-center gap-2 w-1/3 justify-center cursor-pointer">
+                    <button onClick={handleDownload} className="bg-white text-black p-2 rounded-md flex items-center gap-2 w-1/3 justify-center cursor-pointer hover:border-blue-700 hover:text-blue-500 border-2 border-solid">
                         <span>Download CV</span>
-                        <FaDownload className="text-black" />
+                        <FaDownload />
                     </button>
                 </div>
             </div>
