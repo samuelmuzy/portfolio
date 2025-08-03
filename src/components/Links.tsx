@@ -29,15 +29,22 @@ export const Links = () => {
                     </div>
                 </div>
             </div>
-            <nav id="Links">
-                <div>
-                    <FaLinkedin/>
+            <p className="text-4xl">Entre em contato</p>
+            <nav className="flex p-2" id="Links">
+                <div className="p-4">
+                    <a href="https://www.linkedin.com/in/samuel-muzy-fernandes-a19271269/" target="_blank" rel="noopener noreferrer">
+                        <FaLinkedin className="w-10 h-10 hover:text-blue-700 cursor-pointer"/>
+                    </a>
                 </div>
-                <div>
-                    <FaGithub/>
+                <div className="p-4">
+                    <a href="https://github.com/samuelmuzy" target="_blank" rel="noopener noreferrer">
+                        <FaGithub className="w-10 h-10 hover:text-blue-700 cursor-pointer"/>
+                    </a>
                 </div>
-                <div>
-                    <FaInstagram/>
+                <div className="p-4">
+                    <a href="https://www.instagram.com/samuelmuzyfernandes/" target="_blank" rel="noopener noreferrer">
+                        <FaInstagram className="w-10 h-10 hover:text-blue-700 cursor-pointer"/>
+                    </a>
                 </div>
             </nav>
         </section>
