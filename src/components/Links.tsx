@@ -3,47 +3,46 @@ import { FiMail, FiMapPin, FiPhone } from "react-icons/fi"
 
 export const Links = () => {
     return (
-        <section className="w-full h-full flex flex-col items-center justify-between border-2 border-amber-600">
-            <p className="text-4xl">Entre em contato</p>
+        <section className="w-11/12 self-center h-full flex flex-col items-center justify-between border-2 border-blue-200 dark:border-blue-700 rounded-2xl shadow-lg bg-gradient-to-b from-blue-50 to-white dark:from-gray-900 dark:to-gray-800 transition-colors duration-300 p-6 gap-6">
+            <p className="text-2xl md:text-4xl font-bold text-center text-blue-900 dark:text-blue-200 mb-2">Entre em contato</p>
 
-            <div className="flex flex-col self-start w-full ">
-                <div className="flex border-2 border-amber-400 items-center gap-4 p-5">
-                    <FiPhone/>
+            <div className="flex flex-col self-start w-full gap-4">
+                <div className="flex border-2 border-blue-200 dark:border-blue-700 items-center gap-4 p-5 rounded-xl bg-white/60 dark:bg-gray-900/60 transition-colors duration-300">
+                    <FiPhone className="text-blue-700 dark:text-blue-300 w-7 h-7"/>
                     <div>
-                        <p>telefone</p>
-                        <p>+55 (32) 984828122</p>
+                        <p className="text-blue-900 dark:text-blue-100 font-semibold">Telefone</p>
+                        <p className="text-blue-800 dark:text-blue-200">+55 (32) 984828122</p>
                     </div>
                 </div>
-                <div className="flex border-2 border-amber-400 items-center gap-4 p-5">
-                    <FiMail/>
+                <div className="flex border-2 border-blue-200 dark:border-blue-700 items-center gap-4 p-5 rounded-xl bg-white/60 dark:bg-gray-900/60 transition-colors duration-300">
+                    <FiMail className="text-blue-700 dark:text-blue-300 w-7 h-7"/>
                     <div>
-                        <p>Email</p>
-                        <p>samuelmuzyfernandes4@gmail.com</p>
+                        <p className="text-blue-900 dark:text-blue-100 font-semibold">Email</p>
+                        <p className="text-blue-800 dark:text-blue-200">samuelmuzyfernandes4@gmail.com</p>
                     </div>
                 </div>
-                <div className="flex border-2 border-amber-400 items-center gap-4 p-5">
-                    <FiMapPin/>
+                <div className="flex border-2 border-blue-200 dark:border-blue-700 items-center gap-4 p-5 rounded-xl bg-white/60 dark:bg-gray-900/60 transition-colors duration-300">
+                    <FiMapPin className="text-blue-700 dark:text-blue-300 w-7 h-7"/>
                     <div>
-                        <p>Localização</p>
-                        <p>MG - Muriaé ,Brasil</p>
+                        <p className="text-blue-900 dark:text-blue-100 font-semibold">Localização</p>
+                        <p className="text-blue-800 dark:text-blue-200">MG - Muriaé, Brasil</p>
                     </div>
                 </div>
             </div>
-            <p className="text-4xl">Entre em contato</p>
-            <nav className="flex p-2" id="Links">
-                <div className="p-4">
+            <nav className="flex p-2 gap-2" id="Links">
+                <div className="p-2">
                     <a href="https://www.linkedin.com/in/samuel-muzy-fernandes-a19271269/" target="_blank" rel="noopener noreferrer">
-                        <FaLinkedin className="w-10 h-10 hover:text-blue-700 cursor-pointer"/>
+                        <FaLinkedin className="w-10 h-10 text-blue-700 dark:text-blue-300 hover:text-blue-900 dark:hover:text-blue-400 transition-colors cursor-pointer"/>
                     </a>
                 </div>
-                <div className="p-4">
+                <div className="p-2">
                     <a href="https://github.com/samuelmuzy" target="_blank" rel="noopener noreferrer">
-                        <FaGithub className="w-10 h-10 hover:text-blue-700 cursor-pointer"/>
+                        <FaGithub className="w-10 h-10 text-blue-700 dark:text-blue-300 hover:text-blue-900 dark:hover:text-blue-400 transition-colors cursor-pointer"/>
                     </a>
                 </div>
-                <div className="p-4">
+                <div className="p-2">
                     <a href="https://www.instagram.com/samuelmuzyfernandes/" target="_blank" rel="noopener noreferrer">
-                        <FaInstagram className="w-10 h-10 hover:text-blue-700 cursor-pointer"/>
+                        <FaInstagram className="w-10 h-10 text-blue-700 dark:text-blue-300 hover:text-blue-900 dark:hover:text-blue-400 transition-colors cursor-pointer"/>
                     </a>
                 </div>
             </nav>
