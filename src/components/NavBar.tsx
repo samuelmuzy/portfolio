@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { FiMenu, FiX } from "react-icons/fi"
+import {Switch} from "./Toggle";
 
 export const NavBar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -51,7 +52,7 @@ export const NavBar = () => {
                         </button>
                     </div>
                     
-                    <div className="flex flex-col gap-4">
+                    <div className="flex flex-col gap-4 md:hidden">
                         <a 
                             className="border-b-2 border-transparent hover:border-blue-700 text-blue-900 dark:text-blue-200 font-semibold py-2 transition-all duration-200 hover:translate-x-2" 
                             href="#About"
@@ -87,6 +88,9 @@ export const NavBar = () => {
                         >
                             Tecnologias
                         </a>
+                        <div className="md:hidden flex">
+                            <Switch/>
+                        </div>
                     </div>
                 </nav>
             </div>

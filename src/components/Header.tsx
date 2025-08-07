@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import logoHeader from "../assets/logo.png"
 import Image from 'next/image';
 import { NavBar } from "./NavBar";
+import {Switch} from './Toggle';
 
 export const Header = () =>{
     const [isShrunk, setIsShrunk] = useState(false);
@@ -35,6 +36,9 @@ export const Header = () =>{
                 <a className="border-b-2 border-transparent hover:border-blue-700 text-blue-900 dark:text-blue-200 font-semibold transition-colors" href="#Emails">Emails</a>
                 <a className="border-b-2 border-transparent hover:border-blue-700 text-blue-900 dark:text-blue-200 font-semibold transition-colors" href="#Technologies">Tecnologias</a>
             </nav>
+            <div className='hidden md:flex'>
+                <Switch/>
+            </div>
         </header>
     );
 }        
