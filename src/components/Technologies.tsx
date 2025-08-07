@@ -1,6 +1,6 @@
 export const Technologies = () =>{
     return(
-        <section id="Technologies">
+        <section className="dark" id="Technologies">
             <p>Tecnologias</p>
         </section>
         

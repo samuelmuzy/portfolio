@@ -69,7 +69,7 @@ export const NavBar = () => {
                         </a>
                         <a 
                             className="border-b-2 border-transparent hover:border-blue-700 text-blue-900 dark:text-blue-200 font-semibold py-2 transition-all duration-200 hover:translate-x-2" 
-                            href="#Links"
+                            href="#Contatos"
                             onClick={closeMenu}
                         >
                             Links

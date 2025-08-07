@@ -1,6 +1,4 @@
 "use client"
-import Image from "next/image";
-import perfil from "../assets/samuelMuzy.jpg";
 import { FaDownload } from "react-icons/fa";
 export const About = () => {
 
@@ -18,7 +16,7 @@ export const About = () => {
     }
 
     return (
-        <section  className="h-full flex flex-col items-center justify-center gap-4 md:gap-6 px-2 md:px-0 mb-20 bg-gradient-to-b from-blue-50 to-white dark:from-gray-900 dark:to-gray-800 transition-colors duration-300 rounded-2xl  p-8" id="About">
+        <section id='About' className="h-full flex flex-col items-center justify-center gap-4 md:gap-6 px-2 md:px-0 mb-20 bg-gradient-to-b from-blue-50 to-white dark:from-gray-900 dark:to-gray-800 transition-colors duration-300 rounded-2xl  p-8">
             <p className="text-2xl md:text-4xl font-bold text-center text-blue-900 dark:text-blue-200 drop-shadow md:mt-16">Sobre mim</p>
             <div className="flex flex-col md:flex-row gap-4 md:gap-6 justify-center items-center w-full">
                 <div className="flex flex-col gap-4 md:gap-6 w-full md:w-1/2">
