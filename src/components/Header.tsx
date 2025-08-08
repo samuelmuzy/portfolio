@@ -30,10 +30,9 @@ export const Header = () => {
             <Image width={isShrunk ? 90 : 130} height={isShrunk ? 60 : 90} src={logoHeader} alt="LogoHeader" className="transition-all duration-300" />
             <NavBar />
             <nav className="gap-5 hidden md:flex">
-                <a className="border-b-2 border-transparent hover:border-blue-700 text-blue-900 dark:text-blue-200 font-semibold transition-colors" href="#About">About</a>
-                <a className="border-b-2 border-transparent hover:border-blue-700 text-blue-900 dark:text-blue-200 font-semibold transition-colors" href="#Projects">Projects</a>
-                <a className="border-b-2 border-transparent hover:border-blue-700 text-blue-900 dark:text-blue-200 font-semibold transition-colors" href="#Contatos">Links</a>
-                <a className="border-b-2 border-transparent hover:border-blue-700 text-blue-900 dark:text-blue-200 font-semibold transition-colors" href="#Emails">Emails</a>
+                <a className="border-b-2 border-transparent hover:border-blue-700 text-blue-900 dark:text-blue-200 font-semibold transition-colors" href="#About">Sobre</a>
+                <a className="border-b-2 border-transparent hover:border-blue-700 text-blue-900 dark:text-blue-200 font-semibold transition-colors" href="#Projects">Projetos</a>
+                <a className="border-b-2 border-transparent hover:border-blue-700 text-blue-900 dark:text-blue-200 font-semibold transition-colors" href="#Contatos">Contatos</a>
                 <a className="border-b-2 border-transparent hover:border-blue-700 text-blue-900 dark:text-blue-200 font-semibold transition-colors" href="#Technologies">Tecnologias</a>
             </nav>
             <div className='hidden md:flex'>

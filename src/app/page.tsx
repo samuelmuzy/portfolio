@@ -1,5 +1,5 @@
 import { About } from "@/components/About";
-import { Email } from "@/components/Email";
+
 import { Links } from "@/components/Links";
 import { MainSection } from "@/components/MainSection";
 import { Project } from "@/components/Project";
@@ -13,7 +13,6 @@ export default function Home() {
       <Links/>
       <Project/>
       <Technologies/>
-      <Email/>
     </div>
   );
 }

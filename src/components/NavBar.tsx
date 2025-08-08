@@ -58,28 +58,21 @@ export const NavBar = () => {
                             href="#About"
                             onClick={closeMenu}
                         >
-                            About
+                            Sobre
                         </a>
                         <a 
                             className="border-b-2 border-transparent hover:border-blue-700 text-blue-900 dark:text-blue-200 font-semibold py-2 transition-all duration-200 hover:translate-x-2" 
                             href="#Projects"
                             onClick={closeMenu}
                         >
-                            Projects
+                            Projetos
                         </a>
                         <a 
                             className="border-b-2 border-transparent hover:border-blue-700 text-blue-900 dark:text-blue-200 font-semibold py-2 transition-all duration-200 hover:translate-x-2" 
                             href="#Contatos"
                             onClick={closeMenu}
                         >
-                            Links
-                        </a>
-                        <a 
-                            className="border-b-2 border-transparent hover:border-blue-700 text-blue-900 dark:text-blue-200 font-semibold py-2 transition-all duration-200 hover:translate-x-2" 
-                            href="#Emails"
-                            onClick={closeMenu}
-                        >
-                            Emails
+                            Contatos
                         </a>
                         <a 
                             className="border-b-2 border-transparent hover:border-blue-700 text-blue-900 dark:text-blue-200 font-semibold py-2 transition-all duration-200 hover:translate-x-2" 
