@@ -20,7 +20,7 @@ export const technologies = [
     },
     {
         id:uuidv4(),
-        nome:"Java Scripty",
+        nome:"JavaScript",
         icon:<DiJavascript/>,
         cor: "#F7DF1E"
     },
@@ -38,7 +38,7 @@ export const technologies = [
     },
     {
         id:uuidv4(),
-        nome:"Next Js",
+        nome:"Next.js",
         icon:<RiNextjsFill/>,
         cor: "#000000"
     },
@@ -56,13 +56,13 @@ export const technologies = [
     },
     {
         id:uuidv4(),
-        nome:"Type Script",
+        nome:"TypeScript",
         icon:<SiTypescript/>,
         cor: "#3178C6"
     },
     {
         id:uuidv4(),
-        nome:"Node js",
+        nome:"Node.js",
         icon:<DiNodejs/>,
         cor: "#339933"
     },
@@ -74,7 +74,7 @@ export const technologies = [
     },
     {
         id:uuidv4(),
-        nome:"Socket io",
+        nome:"Socket.IO",
         icon:<SiSocketdotio/>,
         cor: "#010101"
     },
@@ -104,13 +104,13 @@ export const technologies = [
     },
     {
         id:uuidv4(),
-        nome:"MySql",
+        nome:"MySQL",
         icon:<DiMysql/>,
         cor: "#4479A1"
     },
     {
         id:uuidv4(),
-        nome:"Mongo Db",
+        nome:"MongoDB",
         icon:<DiMongodb/>,
         cor: "#47A248"
     },

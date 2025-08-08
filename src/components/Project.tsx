@@ -17,11 +17,11 @@ export const Project = () => {
                             <div className="flex gap-3">
                                 {project.link && (
                                     <a href={project.link} target="_blank" rel="noopener noreferrer">
-                                        <FaExternalLinkAlt className="text-blue-700 dark:text-blue-300 hover:text-blue-900 dark:hover:text-blue-400 transition-colors h-9" />
+                                        <FaExternalLinkAlt className="text-blue-700 text-2xl dark:text-blue-300 hover:text-blue-900 dark:hover:text-blue-400 transition-colors h-9" />
                                     </a>
                                 )}
                                 <a href={project.github} target="_blank" rel="noopener noreferrer">
-                                    <FaGithub className="text-blue-700 dark:text-blue-300 hover:text-blue-900 dark:hover:text-blue-400 transition-colors h-9" />
+                                    <FaGithub className="text-blue-700 text-2xl dark:text-blue-300 hover:text-blue-900 dark:hover:text-blue-400 transition-colors h-9" />
                                 </a>
                             </div>
                         </div>

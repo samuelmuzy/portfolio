@@ -6,7 +6,7 @@ export const Switch = () => {
     const { theme, toggleTheme } = useTheme();
     return (
         <div className="flex items-center justify-center">
-            <label htmlFor={switchId} className="relative w-12 h-12 rounded-full bg-white grid place-items-center cursor-pointer overflow-hidden">
+            <label htmlFor={switchId} className="relative w-12 h-12 rounded-full bg-white border-2 border-blue-300 dark:border-blue-500 grid place-items-center cursor-pointer overflow-hidden">
                 <input
                     type="checkbox"
                     id={switchId}

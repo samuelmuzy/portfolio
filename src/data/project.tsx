@@ -46,7 +46,7 @@ export const project = [
         name: "Handyman-Back",
         github: "https://github.com/samuelmuzy/Handyman-back",
         description: "O Handyman Back-End é a API que gerencia toda a lógica e os dados da plataforma, conectando clientes e prestadores de serviços manuais. Desenvolvida com Node.js e Express, oferece rotas para cadastro, autenticação com JWT, agendamento, gerenciamento de serviços e pagamentos. A aplicação é integrada ao banco de dados MongoDB, garantindo armazenamento seguro e consultas eficientes, além de contar com validações e tratamento de erros para manter a integridade das informações.",
-        technologies: ["NodeJs", "Express", "TypeScript","Mongo DB","Mongosse","jwt","Socket.IO","bcryptjs"],
+        technologies: ["Node.js", "Express", "TypeScript","MongoDB","Mongoose","jwt","Socket.IO","bcryptjs"],
     },
     {
         id: uuidv4(),
@@ -60,7 +60,7 @@ export const project = [
         name: "Café Dev-Back",
         github: "https://github.com/samuelmuzy/LojaCafe-Back",
         description: "Café Dev é uma API voltada para o gerenciamento de pedidos de bebidas, especialmente pensada para quem precisa de eficiência e praticidade no dia a dia. Assim como um bom café, nossa API oferece a energia necessária para o seu backend, garantindo que você consiga gerenciar seus pedidos com facilidade.",
-        technologies: ["NodeJs", "Express", "TypeScript","MySql","knex","jwt"],
+        technologies: ["Node.js", "Express", "TypeScript","MySQL","knex","jwt"],
     },
     {
         id: uuidv4(),
@@ -73,7 +73,7 @@ export const project = [
         id: uuidv4(),
         name: "Cavernas da Perdição",
         github: "https://github.com/samuelmuzy/jogo-c",
-        description: "Um jogo em C inspirado no estilo Dark Souls, ambientado em cavernas perigosas e sombrias.Cavernas da Perdição é um jogo em linguagem C que busca recriar a atmosfera sombria, desafiadora e estratégica dos jogos estilo Dark Souls. O jogador deve explorar cavernas, enfrentar inimigos difíceis, gerenciar recursos e encontrar a saída, superando obstáculos mortais.",
+        description: "Um jogo em C inspirado no estilo Dark Souls, ambientado em cavernas perigosas e sombrias. É um jogo em linguagem C que busca recriar a atmosfera sombria, desafiadora e estratégica dos jogos estilo Dark Souls. O jogador deve explorar cavernas, enfrentar inimigos difíceis, gerenciar recursos e encontrar a saída, superando obstáculos mortais.",
         technologies: ["C"],
     },
     {
@@ -81,7 +81,7 @@ export const project = [
         name: "Simulador de Robô com Programação Genética",
         github: "https://github.com/samuelmuzy/Algoritimo-genetico.git",
         description: "Simulador de Robô com Programação Genética é um projeto que cria um ambiente 2D onde um robô aprende, por meio de programação genética, a navegar e coletar recursos. O sistema evolui estratégias inteligentes para otimizar a coleta e a movimentação no espaço, simulando processos de seleção natural e adaptação.",
-        technologies: ["Python", "Pandas",],
+        technologies: ["Python", "Pandas"],
     },
     {
         id: uuidv4(),
