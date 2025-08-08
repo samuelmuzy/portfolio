@@ -28,7 +28,7 @@ export const project = [
     {
         id: uuidv4(),
         name: "Criatividade dialógica",
-        link: "https://samuelmuzy.github.io/Criatividade-dial-gicas/",
+        link: "https://criatividadedialogicaa.github.io/Criatividadedialogica/index.html",
         github: "https://github.com/samuelmuzy/Criatividade-dial-gicas?tab=readme-ov-file",
         description: "O Criatividade Dialógica é um projeto de mestrado que explora o uso do podcast como ferramenta inovadora no ensino de Língua Portuguesa. Voltado para professores, o site oferece oficinas e roteiros prontos para aplicação em sala de aula, incentivando práticas dialógicas que estimulam a participação ativa dos alunos.",
         technologies: ["HTML", "CSS", "JavaScript"],
