@@ -4,6 +4,10 @@
 
 Olá! Sou **Samuel Muzy Fernandes**, um desenvolvedor **Full Stack** apaixonado por criar soluções tecnológicas que impactam positivamente a vida das pessoas. Atualmente, estou focado em aprimorar minhas habilidades em desenvolvimento web e mobile, com expertise em tecnologias modernas como React, React Native, Node.js e TypeScript.
 
+## 📱 Acesso ao Projeto
+
+**🌐 Link do Projeto**: [Portifolio](https://portfolio-five-psi-nyiloyulur.vercel.app/)
+
 ## ✨ Características
 
 - **🎯 Full Stack**: Desenvolvimento completo (frontend, backend e mobile)
