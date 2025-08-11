@@ -1,4 +1,5 @@
 import { About } from "@/components/About";
+import { ButtonWhatsapp } from "@/components/ButtonWhatsapp";
 
 import { Links } from "@/components/Links";
 import { MainSection } from "@/components/MainSection";
@@ -13,6 +14,7 @@ export default function Home() {
       <Links/>
       <Project/>
       <Technologies/>
+      <ButtonWhatsapp/>
     </div>
   );
 }
