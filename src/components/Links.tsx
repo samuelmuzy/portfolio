@@ -11,7 +11,7 @@ export const Links = () => {
     }
 
     const sendEmail = () => {
-        const destinatario = "samuelmuzyfernandes4@email.com";
+        const destinatario = "samuelmuzyfernandes4@gmail.com";
         const assunto = "Contato pelo site";
         const corpo = "Olá, vi seu portfólio e gostaria de conversar.";
         
