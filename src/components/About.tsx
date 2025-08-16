@@ -3,13 +3,13 @@ import { FaDownload } from "react-icons/fa";
 export const About = () => {
 
     const handleDownload = async () => {
-        const response = await fetch('/Currículo-Samuel-Muzy.pdf');
+        const response = await fetch('/Currículo-Samuel-Muzy-Fernandes.pdf');
         const blob = await response.blob();
         const url = window.URL.createObjectURL(blob);
 
         const link = document.createElement('a');
         link.href = url;
-        link.download = 'Currículo-Samuel-Muzy.pdf';
+        link.download = 'Currículo-Samuel-Muzy-Fernandes.pdf';
         link.click();
 
         window.URL.revokeObjectURL(url);
