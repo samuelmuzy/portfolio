@@ -4,7 +4,7 @@ import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa"
 
 export const MainSection = () =>{
     return(
-        <main className="w-full min-h-screen flex flex-col md:flex-row justify-center items-center gap-12 bg-gradient-to-b from-blue-50 to-white dark:from-gray-900 dark:to-gray-800 py-12 transition-colors duration-300">
+        <main id="Home" className="w-full min-h-[85vh] flex flex-col md:flex-row justify-center items-center gap-12 bg-gradient-to-b from-blue-50 to-white dark:from-gray-900 dark:to-gray-800 py-12 transition-colors duration-300">
             <Image 
                 className="w-40 h-40 md:w-60 md:h-60 border-4 border-blue-700 dark:border-blue-400 rounded-full shadow-lg dark:shadow-blue-900 object-cover transition-transform duration-300 hover:scale-105" 
                 src={imagemPrincipal} 
